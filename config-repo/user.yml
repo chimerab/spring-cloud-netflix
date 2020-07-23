@@ -5,8 +5,8 @@ spring:
     name: user-service
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/userdb?useUnicode=true&characterEncoding=UTF-8
-    username: root
-    password: qqqq
+    username: test
+    password: password
     dbcp2:
       driver-class-name: com.mysql.jdbc.Driver
   jpa:
